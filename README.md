@@ -72,10 +72,14 @@ Key dependencies: `pandas`, `numpy`, `matplotlib`, `seaborn`, `yfinance`, `freda
 
 1. Clone the repository
 2. Install dependencies: `pip install -r requirements.txt`
-3. Obtain a free [FRED API key](https://fred.stlouisfed.org/docs/api/api_key.html) and set it in the notebook
-4. Run the notebook top-to-bottom
+3. Obtain a free FRED API key from [fred.stlouisfed.org](https://fred.stlouisfed.org/docs/api/api_key.html)
+4. In the notebook, find the data-loading cell and replace `YOUR_FRED_API_KEY` with your actual key:
+   ```python
+   fred = fredapi.Fred(api_key='YOUR_FRED_API_KEY')
+   ```
+5. Run the notebook top-to-bottom
 
-> **Note:** The notebook requires a valid FRED API key. Replace the placeholder in the data-loading cell with your own key before running.
+> **Note:** A valid FRED API key is required to fetch macroeconomic data (GDP, CPI, interest rates, etc.). Registration is free at [fred.stlouisfed.org](https://fred.stlouisfed.org/docs/api/api_key.html).
 
 ## Course Context
 
