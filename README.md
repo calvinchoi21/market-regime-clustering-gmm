@@ -81,6 +81,3 @@ Key dependencies: `pandas`, `numpy`, `matplotlib`, `seaborn`, `yfinance`, `freda
 
 > **Note:** A valid FRED API key is required to fetch macroeconomic data (GDP, CPI, interest rates, etc.). Registration is free at [fred.stlouisfed.org](https://fred.stlouisfed.org/docs/api/api_key.html).
 
-## Course Context
-
-This project was completed as part of **ISYE 6740 – Computational Data Analysis** at Georgia Tech (OMSA program).
